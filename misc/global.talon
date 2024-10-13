@@ -1,0 +1,1 @@
+fullscreen: key(ctrl-cmd-f)
