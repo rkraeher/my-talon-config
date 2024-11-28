@@ -17,7 +17,7 @@ ctx.lists["user.template_message"] = {
 class Actions:
     def copy_template(template: str) -> None:
         """Copies text from named file to system clipboard"""
-        with open(template) as f: 
+        with open(template) as f:
             data = f.read()
             return subprocess.run("pbcopy", text=True, input=data)
             # clip should be the windows equivalent of pbcopy

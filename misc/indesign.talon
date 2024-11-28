@@ -40,6 +40,7 @@ links panel: key(shift-cmd-d)
 # properties shortcut is not defined by default and must be set in the app as well
 properties panel: key(f9)
 pages panel: key(f12)
+# TODO command for preflight error panel
 
 # TODO Do we need commands for save and zoom?
 # Zoom In --- Default: Cmd+=, Default: Cmd+Num +

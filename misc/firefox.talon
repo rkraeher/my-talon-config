@@ -1,7 +1,7 @@
 app: firefox
 -
 
-go (last | previous): key("cmd-alt-left")
-go next: key("cmd-alt-right")
+tab (last | previous): key("cmd-alt-left")
+tab next: key("cmd-alt-right")
 
 # show downloads?
